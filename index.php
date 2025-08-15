@@ -104,7 +104,7 @@ if ($conexion) {
       <td><?php echo $fila["Edad"]; ?></td>
       <td><?php echo $fila["Correo"]; ?></td>
       <td><?php echo $fila["Telefono"]; ?></td>
-      <td><a href="Update.php" type="button" class="btn btn-success">Editar</a></td>
+      <td><a href="Update.php?id=<?php echo $fila['Id']; ?>S" type="button" class="btn btn-success">Editar</a></td>
       <td></td>
      
     </tr>
