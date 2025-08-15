@@ -73,7 +73,7 @@ include 'Layout/Lay.php'; ?>
           <div class="mb-3">
             <label for="Id" class="form-label">ID</label>
             <input type="text" class="form-control" id="Id" name="Id" 
-                   value="<?php echo htmlspecialchars($registro['Id']); ?>" disabled>
+                   value="<?php echo htmlspecialchars($registro['Id']); ?>" readonly>
           </div>
           <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
